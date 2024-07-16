@@ -1,9 +1,5 @@
-package com.yohanii.design_pattern;
+package com.yohanii.design_pattern.singleton;
 
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
-
-import javax.sql.DataSource;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;

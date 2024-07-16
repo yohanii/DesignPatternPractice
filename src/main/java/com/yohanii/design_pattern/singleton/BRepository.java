@@ -1,13 +1,13 @@
-package com.yohanii.design_pattern;
+package com.yohanii.design_pattern.singleton;
 
 import java.sql.Connection;
 import java.sql.SQLException;
 
-public class ARepository {
+public class BRepository {
 
     private DBUtils db;
 
-    public ARepository() {
+    public BRepository() {
         this.db = DBUtils.getInstance();
     }
 
