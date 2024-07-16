@@ -10,7 +10,7 @@ import java.sql.SQLException;
 
 public class DBUtils {
 
-    private static final String JDBC_URI = "jdbc:mysql://127.0.0.1:3306/test";
+    private static final String JDBC_URI = "jdbc:mysql://localhost:3306/test";
 
     private static DBUtils db;
 
